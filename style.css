@@ -59,6 +59,22 @@ nav .sub-heading a {
     color: black;
 }
 
+nav .sub-heading a:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease
+}
+
+nav .sub-heading button {
+    padding: 0.3vw 1vw;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
 nav .sub-heading button {
     padding: 0.3vw 1vw;
     border-radius: 20px;
